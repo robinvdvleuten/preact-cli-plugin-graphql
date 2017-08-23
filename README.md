@@ -8,13 +8,13 @@ Preprocess GraphQL queries with the Preact CLI.
 ## Installation
 
 ```
-$ yarn add preact-cli-plugin-graphql --dev
+$ yarn add preact-cli-plugin-graphql graphql-tag --dev
 ```
 
 Alternatively using npm:
 
 ```
-$ npm i preact-cli-plugin-graphql --save-dev
+$ npm i preact-cli-plugin-graphql graphql-tag --save-dev
 ```
 
 And include in your project by creating a `preact.config.js`:
