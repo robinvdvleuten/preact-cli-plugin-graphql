@@ -27,6 +27,16 @@ export default function (config) {
 }
 ```
 
+## Usage
+
+The plugin allows to import any graphql files (with the `.graphql` or `.gql`) extension directly within your script:
+
+```js
+import query from './query.gql';
+```
+
+You can read more about this processing at the [graphql-tag](https://www.npmjs.com/package/graphql-tag#webpack-preprocessing) documentation
+
 ## License
 
 MIT © [Robin van der Vleuten](https://www.robinvdvleuten.nl)
