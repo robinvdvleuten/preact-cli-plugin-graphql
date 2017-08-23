@@ -4,14 +4,14 @@
   "description": "Preprocess GraphQL queries with the Preact CLI",
   "license": "MIT",
   "author": "Robin van der Vleuten <robin@webstronauts.co>",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "keywords": [
     "preact",
     "plugin",
     "graphql"
   ],
   "files": [
-    "src"
+    "lib"
   ],
   "scripts": {
     "test": "xo"
