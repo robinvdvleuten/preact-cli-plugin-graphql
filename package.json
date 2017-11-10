@@ -4,14 +4,11 @@
   "description": "Preprocess GraphQL queries with the Preact CLI",
   "license": "MIT",
   "author": "Robin van der Vleuten <robin@webstronauts.co>",
-  "main": "lib/index.js",
+  "main": "index.js",
   "keywords": [
     "preact",
     "plugin",
     "graphql"
-  ],
-  "files": [
-    "lib"
   ],
   "scripts": {
     "test": "xo"
@@ -29,10 +26,10 @@
     "url": "https://github.com/robinvdvleuten/preact-cli-plugin-graphql/issues"
   },
   "homepage": "https://github.com/robinvdvleuten/preact-cli-plugin-graphql#readme",
-  "peerDependencies": {
-    "graphql-tag": "^2.4.0"
-  },
   "devDependencies": {
     "xo": "^0.18.2"
+  },
+  "peerDependencies": {
+    "graphql-tag": "^2.4.0"
   }
 }
