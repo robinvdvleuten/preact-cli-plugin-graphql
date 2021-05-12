@@ -1,5 +1,5 @@
 module.exports = config => {
-  config.module.loaders.push({
+  config.module.rules.push({
     test: /\.(graphql|gql)$/,
     exclude: /node_modules/,
     loader: 'graphql-tag/loader'
