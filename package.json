@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/robinvdvleuten/preact-cli-plugin-graphql#readme",
   "devDependencies": {
-    "xo": "^0.18.2"
+    "xo": "^0.40.1"
   },
   "peerDependencies": {
     "graphql-tag": "^2.4.0"
